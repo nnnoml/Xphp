@@ -1,0 +1,7 @@
+{
+    "name": "administrator/study",
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "filp/whoops": "^2.1"
+    }
+}
