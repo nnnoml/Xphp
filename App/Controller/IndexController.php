@@ -14,6 +14,6 @@ class IndexController extends Controller
         $this->assign('items', $items);
         $this->assign('data', $data);
 
-        $this->display('header',compact('keyword','items','title'));
+        $this->display('Admin/index',compact('keyword','items','title'));
     }
 }

@@ -68,7 +68,7 @@ class Instance implements DbInterface {
      */
     public function connect($type='mysql')
     {
-        $config = include('../Config/App.conf.php');
+        $config = include(APP_PATH.'Config/App.conf.php');
         $this->table = $config[$type]['prefix'].$this->table;
         $host = $config[$type]['host'];
         $dbname = $config[$type]['dbname'];

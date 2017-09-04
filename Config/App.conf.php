@@ -10,10 +10,10 @@ return [
 //    ],
 
     'mysql' => [
-        'host'       => env('host',''),
-        'user'       => env('user',''),
-        'pwd'        => env('pwd',''),
-        'dbname'    => env('dbname',''),
+        'host'       => env('host','localhost'),
+        'user'       => env('user','root'),
+        'pwd'        => env('pwd','123'),
+        'dbname'    => env('dbname','gamezz'),
         'charset'   => 'utf8',
         'prefix'    => env('prefix','zz_'),
     ],
